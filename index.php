@@ -27,11 +27,18 @@ add_action('admin_enqueue_scripts', 'my_admin_theme_style',900);
 function admin_shadow() {
    global $wp_admin_bar;
    
-   echo '<style>html { background-image: url('.get_background_image().'); }</style>';
+	$img = plugins_url('wall.jpg', __FILE__);
+	if(!empty( get_background_image() )) { $img = get_background_image(); }
+	//echo '<style>html { background-image: url('.get_background_image().'); }</style>';
+	echo '<style>html { background-image: url('.$img.'); }</style>';
    
 }
 add_action( 'admin_head', 'admin_shadow', 800 );
 
-add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+
+function custom_theme_setup() {
+	add_theme_support( 'custom-background', $arguments );
+}
+add_action( 'after_setup_theme', 'custom_theme_setup' );
 
 ?>
