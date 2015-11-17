@@ -1,5 +1,5 @@
 html { 
-  background: url(https://css-tricks.com/examples/FullPageBackgroundImage/images/bg.jpg) no-repeat center center fixed; 
+  background: url('') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,7 +60,6 @@ width: 200px;
 }
 
 #adminmenuback {
-	background: rgba(0,0,0,0.5);
 	background: #302d2d;
 	width: 200px;
 	margin-left: 0.8%;
@@ -133,7 +132,8 @@ ul#adminmenu li.wp-menu-open a.wp-has-current-submenu:after {
 }
 
 .wp-core-ui .button, .wp-core-ui .button-secondary, .wrap .page-title-action {
-	background: #ddd; border: 1px solid #ddd; box-shadow: none; color: #888; font-weight: normal;
+	background: #eee; border: 2px solid #eee; box-shadow: none; color: #888; font-weight: normal;
+	border-radius: 6px;
 -webkit-transition: all 0.25s linear;
 -moz-transition: all 0.25s linear;
 -o-transition: all 0.25s linear;  
@@ -141,7 +141,7 @@ transition: all 0.25s linear;
 }
 
 .wp-core-ui .button:hover, .wp-core-ui .button-secondary:hover, .wrap .page-title-action:hover {
-	background: orange; border: 1px solid orange; box-shadow: none; color: #555; font-weight: normal; box-shadow: 0 1px 3px #aaa;
+	background: transparent; color: #00a0d2; border: 2px solid #00a0d2; box-shadow: none; font-weight: normal; box-shadow: 0 1px 3px #aaa;
 -webkit-transition: all 0.25s linear;
 -moz-transition: all 0.25s linear;
 -o-transition: all 0.25s linear;  
@@ -175,4 +175,12 @@ table.widefat, .wp-filter {
 
 .subsubsub a:hover, .row-actions a:hover {
 	color: #0073aa;
+}
+
+#wpadminbar {
+	opacity: 0.8; display: none;
+}
+
+html.wp-toolbar {
+	padding:0;
 }

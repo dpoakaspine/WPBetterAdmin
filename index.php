@@ -9,6 +9,8 @@ Version: 1.0
 Author URI: http://netzstoffi.de
 */
 
+add_filter('show_admin_bar', '__return_false');
+
 add_action( 'admin_enqueue_scripts', 'add_google_font' );
 
 function add_google_font() {
@@ -29,5 +31,7 @@ function admin_shadow() {
    
 }
 add_action( 'admin_head', 'admin_shadow', 800 );
+
+add_filter( 'show_admin_bar' , 'my_function_admin_bar');
 
 ?>
