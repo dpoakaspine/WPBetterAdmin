@@ -28,7 +28,7 @@ function admin_shadow() {
    global $wp_admin_bar;
    
 	$img = plugins_url('wall.jpg', __FILE__);
-	if(!empty( get_background_image() )) { $img = get_background_image(); }
+	//if(!empty( get_background_image() )) { $img = get_background_image(); }
 	//echo '<style>html { background-image: url('.get_background_image().'); }</style>';
 	echo '<style>html { background-image: url('.$img.'); }</style>';
    
