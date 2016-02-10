@@ -1,5 +1,5 @@
-html { 
-  background: url('http://smashblogtrends.com/wp-content/uploads/2014/09/Wordpress-Wallpapers-for-Bloggers-11.jpg') no-repeat center center fixed; 
+html {
+  background: url('http://smashblogtrends.com/wp-content/uploads/2014/09/Wordpress-Wallpapers-for-Bloggers-11.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ h3 {
 	color: #f5f5f5;
 -webkit-transition: all 0.25s linear;
 -moz-transition: all 0.25s linear;
--o-transition: all 0.25s linear;  
+-o-transition: all 0.25s linear;
 transition: all 0.25s linear;
 }
 
@@ -26,7 +26,7 @@ transition: all 0.25s linear;
 	color: #222;
 -webkit-transition: all 0.25s linear;
 -moz-transition: all 0.25s linear;
--o-transition: all 0.25s linear;  
+-o-transition: all 0.25s linear;
 transition: all 0.25s linear;
 }
 
@@ -36,7 +36,7 @@ transition: all 0.25s linear;
 
 #wpwrap {
 	background: rgba(0,0,0,0.4);
-	
+
 }
 
 #wpcontent {
@@ -87,7 +87,7 @@ width: 200px;
 }
 
 #adminmenu  li {
-	padding-left: 2em; padding-right: 1em;
+	padding-left: 3em; padding-right: 1em;
 }
 
 ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
@@ -136,7 +136,7 @@ ul#adminmenu li.wp-menu-open a.wp-has-current-submenu:after {
 	border-radius: 6px;
 -webkit-transition: all 0.25s linear;
 -moz-transition: all 0.25s linear;
--o-transition: all 0.25s linear;  
+-o-transition: all 0.25s linear;
 transition: all 0.25s linear;
 }
 
@@ -144,7 +144,7 @@ transition: all 0.25s linear;
 	background: transparent; color: #00a0d2; border: 2px solid #00a0d2; box-shadow: none; font-weight: normal; box-shadow: 0 1px 3px #aaa;
 -webkit-transition: all 0.25s linear;
 -moz-transition: all 0.25s linear;
--o-transition: all 0.25s linear;  
+-o-transition: all 0.25s linear;
 transition: all 0.25s linear;
 }
 
@@ -170,7 +170,7 @@ table.widefat, .wp-filter {
 }
 
 .subsubsub a, .row-actions a {
-	color: #aaa; 
+	color: #aaa;
 }
 
 .subsubsub a:hover, .row-actions a:hover {
