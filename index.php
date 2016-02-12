@@ -38,7 +38,6 @@ function zm_customize_admin() {
   //check if there is actually an image
   if(!empty( $background_image )) { $img = $background_image; }
 
-  //
 	echo '<style>html { background-image: url('.$img.'); }</style>';
 }
 
